@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', []);
+var houseCtl = angular.module('myApp', []);
 myApp.controller('mainController', function($scope, $http) {
 	
 	$scope.relatedVids = otherVideos;
